@@ -1,3 +1,4 @@
+import random
 import time
 from pynput.mouse import Button, Controller
 
@@ -18,8 +19,12 @@ print('The current pointer position is {0}'.format(
 # Scroll two steps down
 mouse.scroll(0, 2)
 
+base = 100
+
 while True:
-    time.sleep(1.0)
-    mouse.move(5, 5)
-    time.sleep(1.0)
-    mouse.move(-5, -5)
+    rand = random.random() * 1.0
+    print(rand)
+    time.sleep(rand)
+    mouse.move(base * rand, base * rand)
+    time.sleep(rand)
+    mouse.move(-base * rand, -base * rand)
