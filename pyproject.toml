@@ -5,7 +5,7 @@ description = ""
 authors = ["Richard Gong"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 pynput = "^1.7.6"
 
 [tool.poetry.dev-dependencies]

@@ -86,8 +86,8 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.8"
-content-hash = "72bd3fe672e6060ef71f4ceea6701c8f3ba93bd4de62a7d7b5da19ece70ad4df"
+python-versions = "^3.7"
+content-hash = "8dd6e1120f5066a8ab1465014834689a9cf09d97f5810953053b85b75218c655"
 
 [metadata.files]
 evdev = [
